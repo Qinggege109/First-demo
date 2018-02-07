@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*公共样式*/
+
+div,body,ol,li,dl,dd,dt,ul,p,span,h1,h2,h3,h4,h5,h6{ margin: 0px; padding: 0px; }
+body,div,ul,li,ol,p,h1,h2,h3,h4,h5,h6{ font-family: "微软雅黑","黑体";}
+html{font-size:40px;}
+ul,li,ol,dl,dt,dd{ list-style: none; }
+a{text-decoration:none;}
+img{vertical-align: top;}
+/*弹性通用*/
+.dis{display:-webkit-box;display:flex;}
+.disC{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;}
+.disS{display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between;}
+
+/*浮动及清除浮动*/
+.fl{ float: left; }
+.fr{ float: right; }
+.cb{ clear:both; line-height: 0px; }
+.clearfix:after{ content: ""; height: 0px; display: block; visibility: hidden; clear: both; }
+.clearfix:after{*zoom:1;}
